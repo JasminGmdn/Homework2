@@ -41,12 +41,8 @@ public class Car {
         this.year = year;
     }
 
-    public int getYear() {
-        return year;
-    }
-    public void setYear(int year){
-        this.year = year;
-    }
+    public int getYear() { return year; }
+    public void setYear(int year){ this.year = year; }
 
     public double getSpeed(){ return speed; }
     public void setSpeed(double speed) { this.speed = speed; }
@@ -54,10 +50,6 @@ public class Car {
     public int getWeight() { return weight; }
     public void setWeight(int weight) { this.weight = weight; }
 
-    public String getColor() {
-        return color;
-    }
-    public void setColor(String color){
-        this.color = color;
-    }
+    public String getColor() { return color; }
+    public void setColor(String color){ this.color = color; }
 }
